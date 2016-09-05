@@ -21,6 +21,3 @@ RUN useradd \
     --system \
     --user-group znc \
     && chown -R znc:znc /var/lib/znc
-USER znc
-WORKDIR /var/lib/znc
-RUN /usr/bin/znc --makeconf
