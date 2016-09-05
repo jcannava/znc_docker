@@ -3,7 +3,7 @@ znc:
   user: znc
   command: /usr/bin/znc -D
   ports:
-    - 1026
+    - 1026:1026
   volumes:
     - /opt/znc:/var/lib/znc/.znc
   restart: always
