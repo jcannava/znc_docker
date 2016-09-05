@@ -15,6 +15,7 @@ RUN apt-get install -y build-essential libssl-dev libperl-dev pkg-config \
                        swig3.0 libicu-dev python-software-properties \
                        software-properties-common znc znc-dbg znc-dev \
                        znc-perl znc-python znc-tcl
+RUN mkdir -p /var/lib/znc
 RUN useradd \
     --home /var/lib/znc \
     --system \
