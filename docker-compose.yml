@@ -1,0 +1,6 @@
+znc:
+  build: znc/
+  command: /usr/bin/znc -D
+  ports:
+    - 1026
+  restart: always
